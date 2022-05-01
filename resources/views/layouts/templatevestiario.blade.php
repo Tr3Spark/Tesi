@@ -8,7 +8,7 @@
     <body class="rounded-lg ">
             
             <nav class="border-solid border-4 border-black divide-black rounded-lg">
-                <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
+                <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8 lg:max-w-full">
                     <div class="relative flex items-center justify-between h-16">
                         <!-- Responsive menu icon -->
                         <div class="sm:hidden flex items-center">

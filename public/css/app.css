@@ -595,9 +595,6 @@ select {
   --tw-backdrop-saturate:  ;
   --tw-backdrop-sepia:  ;
 }
-.static {
-  position: static;
-}
 .fixed {
   position: fixed;
 }
@@ -610,20 +607,17 @@ select {
 .top-10 {
   top: 2.5rem;
 }
-.bottom-0 {
-  bottom: 0px;
-}
 .left-0 {
   left: 0px;
 }
 .right-0 {
   right: 0px;
 }
+.bottom-0 {
+  bottom: 0px;
+}
 .top-0 {
   top: 0px;
-}
-.bottom-1 {
-  bottom: 0.25rem;
 }
 .z-0 {
   z-index: 0;
@@ -950,6 +944,10 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(255 255 255 / var(--tw-bg-opacity));
 }
+.bg-gray-900 {
+  --tw-bg-opacity: 1;
+  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
+}
 .bg-gray-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
@@ -958,20 +956,12 @@ select {
   --tw-bg-opacity: 1;
   background-color: rgb(238 242 255 / var(--tw-bg-opacity));
 }
-.bg-gray-900 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(17 24 39 / var(--tw-bg-opacity));
-}
 .bg-gray-800 {
   --tw-bg-opacity: 1;
   background-color: rgb(31 41 55 / var(--tw-bg-opacity));
 }
 .fill-current {
   fill: currentColor;
-}
-.object-bottom {
-  -o-object-position: bottom;
-     object-position: bottom;
 }
 .p-2 {
   padding: 0.5rem;
@@ -994,18 +984,6 @@ select {
   padding-left: 0.5rem;
   padding-right: 0.5rem;
 }
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
-}
-.py-4 {
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-}
-.px-6 {
-  padding-left: 1.5rem;
-  padding-right: 1.5rem;
-}
 .px-3 {
   padding-left: 0.75rem;
   padding-right: 0.75rem;
@@ -1013,6 +991,18 @@ select {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
+}
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
 }
 .px-5 {
   padding-left: 1.25rem;
@@ -1122,6 +1112,10 @@ select {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
 }
+.text-white {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
 .text-gray-200 {
   --tw-text-opacity: 1;
   color: rgb(229 231 235 / var(--tw-text-opacity));
@@ -1145,10 +1139,6 @@ select {
 .text-indigo-700 {
   --tw-text-opacity: 1;
   color: rgb(67 56 202 / var(--tw-text-opacity));
-}
-.text-white {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 .text-gray-800 {
   --tw-text-opacity: 1;
@@ -1230,14 +1220,14 @@ select {
 .duration-150 {
   transition-duration: 150ms;
 }
+.duration-300 {
+  transition-duration: 300ms;
+}
 .duration-200 {
   transition-duration: 200ms;
 }
 .duration-75 {
   transition-duration: 75ms;
-}
-.duration-300 {
-  transition-duration: 300ms;
 }
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
@@ -1252,13 +1242,17 @@ select {
   --tw-border-opacity: 1;
   border-color: rgb(209 213 219 / var(--tw-border-opacity));
 }
-.hover\:bg-gray-50:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
-}
 .hover\:bg-gray-700:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(55 65 81 / var(--tw-bg-opacity));
+}
+.hover\:bg-purple-800:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
+}
+.hover\:bg-gray-50:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(249 250 251 / var(--tw-bg-opacity));
 }
 .hover\:bg-blue-800:hover {
   --tw-bg-opacity: 1;
@@ -1267,10 +1261,6 @@ select {
 .hover\:bg-gray-100:hover {
   --tw-bg-opacity: 1;
   background-color: rgb(243 244 246 / var(--tw-bg-opacity));
-}
-.hover\:bg-purple-800:hover {
-  --tw-bg-opacity: 1;
-  background-color: rgb(107 33 168 / var(--tw-bg-opacity));
 }
 .hover\:text-gray-500:hover {
   --tw-text-opacity: 1;
@@ -1557,14 +1547,6 @@ select {
 }
 @media (min-width: 768px) {
 
-  .md\:absolute {
-    position: absolute;
-  }
-
-  .md\:bottom-0 {
-    bottom: 0px;
-  }
-
   .md\:mr-6 {
     margin-right: 1.5rem;
   }
@@ -1586,38 +1568,6 @@ select {
   }
 }
 @media (min-width: 1024px) {
-
-  .lg\:static {
-    position: static;
-  }
-
-  .lg\:absolute {
-    position: absolute;
-  }
-
-  .lg\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .lg\:bottom-10 {
-    bottom: 2.5rem;
-  }
-
-  .lg\:bottom-3 {
-    bottom: 0.75rem;
-  }
-
-  .lg\:bottom-6 {
-    bottom: 1.5rem;
-  }
-
-  .lg\:bottom-12 {
-    bottom: 3rem;
-  }
-
-  .lg\:bottom-16 {
-    bottom: 4rem;
-  }
 
   .lg\:box-content {
     box-sizing: content-box;
@@ -1651,6 +1601,48 @@ select {
     width: 50%;
   }
 
+  .lg\:w-fit {
+    width: -webkit-fit-content;
+    width: -moz-fit-content;
+    width: fit-content;
+  }
+
+  .lg\:w-max {
+    width: -webkit-max-content;
+    width: -moz-max-content;
+    width: max-content;
+  }
+
+  .lg\:w-0 {
+    width: 0px;
+  }
+
+  .lg\:w-auto {
+    width: auto;
+  }
+
+  .lg\:w-5\/6 {
+    width: 83.333333%;
+  }
+
+  .lg\:w-1\/6 {
+    width: 16.666667%;
+  }
+
+  .lg\:max-w-max {
+    max-width: -webkit-max-content;
+    max-width: -moz-max-content;
+    max-width: max-content;
+  }
+
+  .lg\:max-w-7xl {
+    max-width: 80rem;
+  }
+
+  .lg\:max-w-full {
+    max-width: 100%;
+  }
+
   .lg\:justify-center {
     justify-content: center;
   }
@@ -1666,86 +1658,8 @@ select {
 }
 @media (min-width: 1280px) {
 
-  .xl\:absolute {
-    position: absolute;
-  }
-
-  .xl\:bottom-0 {
-    bottom: 0px;
-  }
-
-  .xl\:bottom-5 {
-    bottom: 1.25rem;
-  }
-
-  .xl\:bottom-10 {
-    bottom: 2.5rem;
-  }
-
-  .xl\:bottom-12 {
-    bottom: 3rem;
-  }
-
-  .xl\:bottom-14 {
-    bottom: 3.5rem;
-  }
-
   .xl\:bottom-1 {
     bottom: 0.25rem;
-  }
-
-  .xl\:mt-56 {
-    margin-top: 14rem;
-  }
-
-  .xl\:mt-40 {
-    margin-top: 10rem;
-  }
-
-  .xl\:mt-3 {
-    margin-top: 0.75rem;
-  }
-
-  .xl\:mt-4 {
-    margin-top: 1rem;
-  }
-
-  .xl\:mt-20 {
-    margin-top: 5rem;
-  }
-
-  .xl\:mt-32 {
-    margin-top: 8rem;
-  }
-
-  .xl\:mb-0 {
-    margin-bottom: 0px;
-  }
-
-  .xl\:pl-4 {
-    padding-left: 1rem;
-  }
-
-  .xl\:pl-5 {
-    padding-left: 1.25rem;
-  }
-
-  .xl\:pt-56 {
-    padding-top: 14rem;
-  }
-
-  .xl\:pb-0 {
-    padding-bottom: 0px;
-  }
-}
-@media (min-width: 1536px) {
-
-  .\32xl\:absolute {
-    position: absolute;
-  }
-
-  .\32xl\:bottom-0 {
-    bottom: 0px;
   }
 }
 
