@@ -59,10 +59,10 @@
             </div>
         </div>
         
-        <div class="text-left p-2 ">
+        <div class="text-left p-2 absolute bottom-20 sm:absolute sm:bottom-14 lg:bottom-14">
             <a href="#">Chi Siamo</a>
         </div>
-        <footer class="  bottom-0 rounded-lg inline-flex justify-between p-4 w-full shadow dark:bg-gray-800 border-solid border-4 border-black divide-black ">
+        <footer class="absolute bottom-0  rounded-lg inline-flex justify-between p-4 w-full shadow dark:bg-gray-800 border-solid border-4 border-black divide-black ">
             <span class="text-sm text-black ">© 2022 <a href="#" class="hover:underline">MariGest</a>
             </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-black dark:text-white sm:mt-0">
