@@ -1,4 +1,4 @@
-@extends('layouts.template')
+@extends('layouts.templatecorsi')
 @section('title','Home')
 @section('componentiNavbar')
     <a href="#" class="bg-gray-900 hover:bg-gray-700 text-white px-3 py-3 rounded-md text-sm font-medium">Servizio Uni</a>

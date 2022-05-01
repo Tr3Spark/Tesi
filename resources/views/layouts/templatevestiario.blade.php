@@ -5,7 +5,7 @@
         <title>Marigest - @yield('title')</title>
     </head>
 
-    <body class="rounded-lg">
+    <body class="rounded-lg ">
             
             <nav class="border-solid border-4 border-black divide-black rounded-lg">
                 <div class="max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
@@ -44,24 +44,20 @@
                 </div>
             </nav>
         <div class="rounded-lg lg:flex lg:justify-between lg:h-3/4 ">
-            <div class="rounded-lg w-auto h-1/5 lg:box-content lg:h-auto lg:w-1/4 border-solid border-4 border-black divide-black m-10 top-10">
-                All'interno del box è possibile compilare l'allegato Alfa
+            
+            <div class="text-center rounded-lg w-auto h-1/5 lg:box-content lg:h-auto lg:w-2/4 border-solid border-4 border-black divide-black m-10 top-10">
+                All'interno del box è possibile vedere il resoconto della vestizione
     
             </div>
-            <div class="rounded-lg w-auto h-1/5 lg:box-content lg:h-auto lg:w-1/4 border-solid border-4 border-black divide-black m-10 top-10">
-                All'interno del box è possibile compilare l'allegato Alfa
-    
-            </div>
-            <div class="rounded-lg w-auto h-1/5 lg:box-content lg:h-auto lg:w-1/4 border-solid border-4 border-black divide-black m-10 top-10">
-                All'interno del box è possibile compilare l'allegato Alfa
-    
+            <div class="text-center rounded-lg w-auto h-1/5 lg:box-content lg:h-auto lg:w-2/4 border-solid border-4 border-black divide-black m-10 top-10">
+                All'interno del box è possibile gestire le schede Vestiario
             </div>
         </div>
         
         <div class="text-left p-2 ">
             <a href="#">Chi Siamo</a>
         </div>
-        <footer class="rounded-lg inline-flex justify-between p-4 w-full shadow dark:bg-gray-800  bottom-0 border-solid border-4 border-black divide-black">
+        <footer class=" rounded-lg inline-flex justify-between p-4 w-full shadow dark:bg-gray-800 border-solid border-4 border-black divide-black ">
             <span class="text-sm text-black ">© 2022 <a href="#" class="hover:underline">MariGest</a>
             </span>
                 <ul class="flex flex-wrap items-center mt-3 text-sm text-black dark:text-white sm:mt-0">
